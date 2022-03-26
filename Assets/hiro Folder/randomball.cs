@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class randomball : MonoBehaviour
 {
+<<<<<<< Updated upstream
   public GameObject ballPrefab;
 
   public float mintime = 4f;
@@ -25,11 +26,18 @@ public class randomball : MonoBehaviour
     void Start()
     {
         interval = GetRandomTime();
+=======
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+>>>>>>> Stashed changes
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< Updated upstream
       time += Time.deltaTime;
       if(time > interval)
       {
@@ -52,3 +60,8 @@ public class randomball : MonoBehaviour
       return new Vector3(x,y);
     }
   }
+=======
+        
+    }
+}
+>>>>>>> Stashed changes
