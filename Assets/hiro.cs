@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class hiro : MonoBehaviour
+class Block : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    // 何かとぶつかった時に呼ばれるビルトインメソッド
+    void OnCollisionEnter(Collision collision)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // ゲームオブジェクトを削除するメソッド
+        Destroy(gameObject);
     }
 }
