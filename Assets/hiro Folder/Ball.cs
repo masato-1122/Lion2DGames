@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ball : MonoBehaviour
+class Ball : MonoBehaviour
 {
   public float speed = 5f;
   Rigidbody myRigidbody;
