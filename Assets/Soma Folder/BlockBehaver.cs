@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class BlockBehaver : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    // 何かとぶつかった時に呼ばれるビルトインメソッド
+    void OnCollisionEnter(Collision collision)
     {
-        
+        // ゲームオブジェクトを削除するメソッド
+        Destroy(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
