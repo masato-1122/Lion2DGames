@@ -2156,6 +2156,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &511564325
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2260,6 +2261,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> 33cf7a44beb59024810ebc7edfbe2c0053617d9f
 =======
 >>>>>>> 33cf7a44beb59024810ebc7edfbe2c0053617d9f
 =======
